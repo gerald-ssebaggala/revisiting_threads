@@ -63,3 +63,14 @@ One task doesn't have to complete, before another one can start, and multiple th
 - it's functional method, or its single access method (SAM), is run method
 - when u see a Runnable type, it's a target for a lambda expression
 - You can have any class implement the Runnable interface to run asynchronously 
+
+## Managing and Manipulating Running Threads.... sleep or interrupt 
+
+## ThreadStates 
+
+- NEW - a thread that has not yet started is in this state
+- RUNNABLE - a thread executing in jvm is in this state
+- BLOCKED - a thread that is blocked waiting for a monitor lock is in this state
+- WAITING - a thread waiting independently for another thread to perform a particular action is in this state
+- TIMED_WAITING - a thread waiting for another thread to perform an action for up a specified waiting time is in this state
+- TERMINATED - a thread that has exited is in this state
